@@ -1,0 +1,31 @@
+h1, h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+    display: flex;
+    justify-content:center;
+}
+input, button{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+section{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    align-content:center;
+    justify-content:center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    flex-basis: 20%;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+}
